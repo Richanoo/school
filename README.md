@@ -88,7 +88,10 @@ Responsive
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ![image](https://user-images.githubusercontent.com/118744731/203864262-9c36028e-7619-4f8e-ba76-14a5bcb93fa2.png)
+
+  
+
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
