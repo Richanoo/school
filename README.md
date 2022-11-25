@@ -62,9 +62,12 @@ Responsive
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+ Toetsenbord bevindingen:
+-	Het blijft vast tussen 3 elementen
+-	Het gaat steeds terug naar de http-link bovenaan
+-	Daardoor gaat hij niet door de website heen
+-	Op de homepagina gaat het wel door de banner, maar ook alleen de banner
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
