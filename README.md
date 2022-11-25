@@ -114,8 +114,11 @@ Responsive
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik ben heel goed bezig, er was niet veel te zeggen.
+  Ik moet alleen: 
+  - Media query veranderen
+  - Sectie classes een betere beschrijving geven
+  -
 
   ### Agenda voor meeting
   samen met je groepje opstellen
