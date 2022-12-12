@@ -37,11 +37,12 @@ Responsive
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  ![image](https://user-images.githubusercontent.com/118744731/207051917-15796d7e-80ee-422d-bbef-3e1607622455.png)
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+![image](https://user-images.githubusercontent.com/118744731/207051946-ff058a29-7ffd-46f7-8b4d-82ce41f24c19.png)
  
 </details>
 
