@@ -186,28 +186,14 @@ Ik ben heel goed bezig, er was niet veel te zeggen.
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De screenreader ging netjes door de pagina heen, allene misde sommige afbeeldingen een alt tekst. Dat zal ik nog moeten toevoegen bij ze.
 
 
   #### Muis en Toetsenbord 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Ik ben niet zeker of ik het wel goed doe, maar de tab gaat niet goed door de pagina heen, het skipt bepaalde gedeeltes. Dat is vooral vreemd, want de screenreader gaat wel netjes en goed door de pagina heen.
 
 
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
-
-  #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+ 
 </details>
 
 
