@@ -148,29 +148,9 @@ Ik ben heel goed bezig, er was niet veel te zeggen.
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2e voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+Ik was op vrijdag niet aanwezig, maar de week daarna liet ik mijn werk zien. 
+  De enige opmerking die ik had, was dat ik die sectie namen nog. 
+moeten veranderen.
 
 </details>
 
@@ -266,8 +246,8 @@ Ik ben niet zeker of ik het wel goed doe, maar de tab gaat niet goed door de pag
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. bron afbeeldingen:  wattpad.com
+  2. bron schaduw rond elementen:
+  3. bron popup box:
 
 </details>
