@@ -247,7 +247,9 @@ Ik ben niet zeker of ik het wel goed doe, maar de tab gaat niet goed door de pag
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   1. bron afbeeldingen:  wattpad.com
-  2. bron schaduw rond elementen:
-  3. bron popup box:
+  2. bron schaduw rond elementen:https://css-tricks.com/almanac/properties/t/text-shadow/
+  3. Achtergrondmuziek: https://www.youtube.com/watch?v=4kae796i8nE
+  4. Code voor audio: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_audio_get
+  5. Bron code voor popup box: https://www.youtube.com/watch?v=snhpoxtLugU
 
 </details>
