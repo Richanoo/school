@@ -1,0 +1,650 @@
+* {
+    /* Korte algemene styling */
+    margin: 0;
+    padding: 0;
+    font-family: Source Sans Pro;
+    color: #373636;
+}
+
+
+
+/* Header */
+
+
+/* Navigatie */
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 2.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.05em;
+    border-bottom-color: #e1e1e1;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+header nav ul li img {
+    height: 3em;
+
+    opacity: 0.8;
+}
+
+
+
+
+/* Sectie 1*/
+.homepage header section {
+    margin-top: 1.5em;
+    display: flex;
+    overflow: scroll;
+}
+
+.homepage header section article {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.homepage header section h1 {
+    margin-bottom: 0.2em;
+    text-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+}
+
+
+.homepage header section p {
+    margin-bottom: 0.3em;
+    color: #5e5e5e;
+    margin-bottom: 0.3em;
+}
+
+.homepage header section img {
+    border-radius: 0.3em;
+    width: 18em;
+    box-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+}
+
+/*main */
+
+/* Sectie 1 */
+
+.homepage main section {
+    margin-top: 2em;
+}
+
+.homepage main section h2 {
+    text-align: center;
+    text-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+}
+
+.homepage main section img {
+    box-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+}
+
+.homepage main section:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-width: 0.1em;
+    border-bottom-style: solid;
+    border-bottom-color: #f5f5f5;
+    padding-bottom: 0.5em;
+}
+
+.homepage main section:nth-of-type(1) h3 {
+    width: 9em;
+    margin-left: 1em;
+    font-weight: 500;
+}
+
+.homepage main section:nth-of-type(1) button {
+    background-image: url("../img/iconen/voorkeuren.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-style: none;
+    padding: 1.3em;
+    margin-right: 2em;
+
+}
+
+/* Sectie boeken carousel  */
+.homepage main .sectie-boeken-carousel ul {
+    display: flex;
+    margin-top: 1em;
+    overflow: scroll;
+}
+
+.homepage main .sectie-boeken-carousel ul li {
+    list-style: none;
+    margin-left: 1em;
+    margin-right: 0.4em;
+}
+
+
+.homepage main .sectie-boeken-carousel ul li img {
+    height: 13em;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Popup knop */
+.homepage main #popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 14em;
+    padding: 2em;
+    box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, .30);
+    background: #dba061;
+    visibility: hidden;
+    opacity: 0;
+    transition: -0.5s;
+    color: white;
+}
+
+.homepage main #popup h3 {
+    color: white;
+}
+
+.homepage main #popup button:nth-of-type(2) {
+    background: 0;
+    border: none;
+    height: 1em;
+    position: absolute;
+    top: -1em;
+    left: 19em;
+}
+
+.homepage main #popup img {
+    height: 3em;
+    border-style: solid;
+    border-radius: 53%;
+    border-color: #dba061;
+}
+
+.homepage main #popup #muziekplay {
+    color: #e4932c;
+    padding: 0.8em;
+    border-radius: 2.5em;
+    border-style: solid;
+    background-color: #fff;
+    font-size: 0.8em;
+    font-weight: 700;
+    border-width: 0;
+    margin-top: 1em;
+}
+
+.homepage #popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+/* Sectie boeken info */
+
+.homepage main .sectie-boek-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Foto */
+
+.homepage main .sectie-boek-info article:nth-of-type(1) img {
+    height: 14em;
+    margin-left: 1em;
+    border-radius: 0.5em;
+}
+
+/* Tekst */
+.homepage main .sectie-boek-info {
+    background-color: #fbf2f2;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.homepage main .sectie-boek-info article:nth-of-type(2) {
+    margin-left: 1em;
+}
+
+.homepage main .sectie-boek-info article:nth-of-type(2) h3 {
+    margin-top: 1em;
+    text-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+    margin-bottom: 2em;
+}
+
+.homepage main .sectie-boek-info article:nth-of-type(2) ul li {
+    list-style: none;
+
+    font-size: 0.8em;
+    padding: 0.2em;
+    background-color: #ec7a7a;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    width: 5em;
+    color: white;
+    text-align: center;
+}
+
+.homepage main .sectie-boek-info article:nth-of-type(2) a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 2.5em;
+    padding: 1em;
+    font-weight: 800;
+    position: relative;
+    top: 1em;
+}
+
+.homepage .sectie-boek-info article:nth-of-type(2) button {
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    font-weight: 510;
+}
+
+.homepage .sectie-boek-info article:nth-of-type(3) {
+    margin-top: 1em;
+    font-size: 0.8em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.homepage .sectie-boek-info article:nth-of-type(3) p {
+    color: #686666;
+
+}
+
+.homepage main .sectie-boek-info article:nth-of-type(3) a {
+    margin-left: auto;
+    margin-right: auto;
+    width: 7em;
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 0.5em;
+
+}
+
+.homepage main .lees-sectie {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+    border-width: 0.1em;
+    box-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0.8em;
+}
+
+.homepage main .lees-sectie ul {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.homepage main .lees-sectie ul li {}
+
+.homepage main .lees-sectie ul li:nth-of-type(2) {
+    margin-left: 0.5em;
+    font-weight: 700;
+    margin-top: 0.4em;
+}
+
+.homepage main .lees-sectie ul li:nth-of-type(3) {
+    right: 7.4em;
+    position: relative;
+    top: 1.5em;
+}
+
+.homepage main .lees-sectie ul li:nth-of-type(4) {
+    margin-top: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.homepage main .lees-sectie ul li img {
+    height: 4em;
+    border-radius: 0.2em;
+    position: relative;
+    bottom: 0.6em;
+
+    margin-left: 0.5em;
+}
+
+
+
+
+
+
+/*info pagina*/
+
+.infopagina main section:nth-of-type(1) {
+    display: flex;
+    padding-top: 2em;
+    background-color: #f7f7f7;
+    padding-bottom: 2em;
+    box-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+    margin-bottom: 2em;
+
+}
+
+.infopagina main section:nth-of-type(1) article:nth-of-type(1) {
+    margin-left: 1em;
+}
+
+.infopagina main section:nth-of-type(1) article:nth-of-type(1) ul li {
+    display: inline;
+    list-style: none;
+}
+
+.infopagina main section:nth-of-type(1) article:nth-of-type(1) img {
+    height: 14em;
+    border-radius: 0.5em;
+}
+
+
+.infopagina main section:nth-of-type(1) article:nth-of-type(2) {
+    margin-left: 1em;
+}
+
+.infopagina main section:nth-of-type(1) article:nth-of-type(2) h1 {
+    width: 6em;
+    font-size: 1.8em;
+    margin-top: 1em;
+}
+
+.infopagina main section:nth-of-type(2) ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infopagina main section:nth-of-type(2) ul li {
+    display: inline;
+    list-style: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.85em;
+}
+
+.infopagina main section:nth-of-type(2) ul:nth-of-type(1) {
+    margin-bottom: 0.3em;
+    justify-content: space-between;
+    right: 3em;
+    position: relative;
+
+}
+
+.infopagina main section:nth-of-type(2) ul:nth-of-type(1) li {
+    display: flex;
+    width: 3em;
+    position: relative;
+    left: 1.5em;
+}
+
+.infopagina main section:nth-of-type(2) ul:nth-of-type(1) li:nth-of-type(3) {
+    left: 2em;
+}
+
+.infopagina main section:nth-of-type(2) ul:nth-of-type(1) li img {
+    width: 3em;
+    position: relative;
+    bottom: 0.2em;
+    height: 1.5em;
+    left: 0em;
+}
+
+.infopagina main section:nth-of-type(2) ul:nth-of-type(2) li {
+    right: 1em;
+}
+
+.infopagina main section:nth-of-type(3) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.infopagina main section:nth-of-type(3) p {
+    background-color: #4ea657;
+    width: 4em;
+    margin-left: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+}
+
+.infopagina main section:nath-of-type(4) p {
+    margin-bottom: 1em;
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555454;
+    font-size: 0.9em;
+}
+
+.infopagina main section:nth-of-type(5) {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.infopagina main section:nth-of-type(5) ul {
+    display: flex;
+}
+
+.infopagina main section:nth-of-type(5) ul li {
+    background-color: #4ea657;
+    width: 4em;
+    margin-left: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 0.5em;
+    color: white;
+    text-align: center;
+    list-style: none;
+}
+
+.infopagina main section:nth-of-type(6) ul li {
+    width: 90%;
+    background-color: #fbf8f8;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    box-shadow: 0.2em 0.2em 0.2em rgba(179, 179, 179, 0.7);
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+
+    overflow: hidden;
+    /*! box-sizing: border-box; */
+    height: 1em;
+    display: flex;
+}
+
+.infopagina main section:nth-of-type(6) ul li img {
+    height: 2.5em;
+    position: relative;
+    top: em;
+    margin-right: 1em;
+    bottom: 0.5em;
+}
+
+.infopagina main section:nth-of-type(7) {
+    margin-top: 1em;
+}
+
+.infopagina main section:nth-of-type(7) h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 9em;
+}
+
+.infopagina main section:nth-of-type(7) ul {
+    display: flex;
+    overflow: scroll;
+
+}
+
+.infopagina main section:nth-of-type(7) ul li {
+    margin-left: 1em;
+    margin-top: 1em;
+    list-style: none;
+}
+
+
+.infopagina main section:nth-of-type(7) img {
+    height: 13em;
+    border-radius: 0.5em;
+}
+
+
+
+.infopagina main section:nth-of-type(8) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: orange;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    border-radius: 2em;
+    margin-bottom: 1em;
+}
+
+.infopagina main section:nth-of-type(8) ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infopagina main section:nth-of-type(8) ul li {
+    list-style: none;
+}
+
+.infopagina main section:nth-of-type(8) ul li:nth-child(1) {
+    position: relative;
+    left: 5em;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.infopagina main section:nth-of-type(8) ul li:nth-child(1) a {
+    text-decoration: none;
+    color: white;
+}
+
+.infopagina main section:nth-of-type(8) ul li:nth-child(2) {
+    height: 3.1em;
+    width: 0.2em;
+    background-color: white;
+    position: absolute;
+    left: 16em;
+    bottom: 0.05em;
+
+}
+
+.infopagina main section:nth-of-type(8) ul li:nth-child(3) button {
+    background: none;
+    margin-right: 2em;
+    border-style: none;
+}
+
+.infopagina main section:nth-of-type(8) ul li:nth-child(3) button img {
+
+    height: 2em;
+
+    left: 0.3em;
+    position: relative;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f9f9f9;
+    margin-top: 2em;
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+
+footer section a {
+    text-decoration: none;
+}
+
+footer section:nth-of-type(1) {
+    font-weight: 700;
+    border-bottom: solid;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-width: 0.1em;
+    border-bottom-color: #d0cfcf;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+footer section:nth-of-type(2) {
+    font-weight: 700;
+    border-bottom: solid;
+    border-bottom-color: currentcolor;
+    border-bottom-width: medium;
+    border-width: 0.1em;
+    border-bottom-color: #d0cfcf;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+footer section:nth-of-type(3) {
+    padding-bottom: 1em;
+}
+
+footer section:nth-of-type(3) ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.8em;
+
+}
+
+footer section:nth-of-type(3) ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+footer section:nth-of-type(3) ul li a {
+    text-decoration: none;
+}
+
+
+/* Bronnen 
+
+
+Schaduw op elementen: https://css-tricks.com/almanac/properties/t/text-shadow/
+
+*/
